@@ -46,3 +46,7 @@ y_pred_dt = dt.predict(X_test)
 accuracy_dt = accuracy_score(y_test, y_pred_dt)
 Accuracy_dt = 100 - (accuracy_dt * 100)
 print("Decision Tree Accuracy:", Accuracy_dt)
+
+
+OUTPUT:
+Accuracy:76.9
